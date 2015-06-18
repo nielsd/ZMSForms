@@ -1,0 +1,75 @@
+/* ### Form container ### */
+.ZMSForm { 
+    width: 100%;
+}
+
+/* ### form goup ### */
+.ZMSForm fieldset {
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 16px; 
+    background-color: #eeeeff;
+}
+
+.ZMSForm legend {
+    width: 33%;
+    color: #FFFFFF;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 6px;
+    background-color: #005C95;
+}
+
+/* ### form field ### */
+.ZMSForm div.field {
+    width: 100%;
+    
+}
+
+.ZMSForm div.clearfix { 
+   clear: both; 
+   height: 6px;
+}
+
+.ZMSForm div.field div.labelbox {
+    width: 30%;
+    display: block;
+    float: left;
+}
+.ZMSForm label {
+    font-weight: bold;
+}
+.ZMSForm div.field div.labelbox div.description {
+    font-size: 80%;
+}
+
+/* ### form field required or optional ### */
+.ZMSForm div.required {}
+.ZMSForm div.required label { color: #ff0000; }
+.ZMSForm div.optional {}
+
+.ZMSForm div.field div.inputbox {
+    width: 60%;
+    float: left;
+    display: block;
+}
+
+/* ### form inputs ### */
+.ZMSForm div.field input, 
+.ZMSForm div.field textarea,
+.ZMSForm div.field select {
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.ZMSForm input:focus, 
+.ZMSForm textarea:focus {
+    background-color: #ffee99;
+}
+
+.ZMSForm p.description { font-weight: bold; }
+
+/* ### form submit button ### */
+.ZMSForm input.btn {}
+.ZMSForm input.btn_reset { background-color: grey; }
+
