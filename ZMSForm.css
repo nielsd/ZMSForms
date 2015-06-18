@@ -1,0 +1,22 @@
+/* ### Form container ### */
+.ZMSForm {}
+
+/* ### Form description ### */
+.ZMSFormDescr {}
+
+/* ### form table ### */
+.ZMSFormTable {}
+
+.ZMSFormGroupTitle { border:1px solid; align: left; }
+
+/* ### form field label ### */
+.ZMSFormFieldLabel {}
+
+/* ### form field description ### */
+.ZMSFormFieldDescr {}
+
+/* ### form submit button ### */
+.ZMSFormBtnSubmit {}
+
+/* ### phase with star ### */
+.ZMSFormStar {}

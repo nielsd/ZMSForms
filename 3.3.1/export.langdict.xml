@@ -1,0 +1,438 @@
+<?xml version="1.0"?>
+
+
+
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="head">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="String">
+   <Alignment ss:Vertical="Top" />
+  </Style>
+ </Styles>
+<Worksheet ss:Name="Sprachen">
+<Table>
+
+
+
+<Row>
+<Cell ss:StyleID="head"><Data ss:Type="String">Key</Data></Cell>
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">eng</Data></Cell>
+
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">fra</Data></Cell>
+
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">ger</Data></Cell>
+
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">ita</Data></Cell>
+
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">slv</Data></Cell>
+
+
+
+<Cell ss:StyleID="head"><Data ss:Type="String">spa</Data></Cell>
+
+
+</Row>
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsBtnReset]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[delete]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Supprimer]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[löschen]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Cancella]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Brisanje]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsYourMsgWasStillSent]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Your message was still sent]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Votre message a déjà été envoyé]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ihre Nachricht wurde bereits gesendet]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Il tuo messaggio è già stato inviato]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Vaše sporočilo je že bilo poslano]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsYourMsgWasSent]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Your message was sent]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Votre message a été envoyé]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ihre Nachricht wurde gesendet]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Il tuo messaggio è stato inviato]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Vaše sporočilo je bilo poslano]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsYourMsgWasNOTSent]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Your message was not sent]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Votre message n'a pas pu être envoyé]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ihre Nachricht konnte nicht gesendet werden!]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Non è stato possibile inviare il tuo messaggio]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Vaše sporočilo ni bilo poslano!]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsSubject]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Subject]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Sujet]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Betreff]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Oggetto]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Zadeva]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsReceiptHead]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Your Message]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Votre message]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ihre Nachricht]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Il tuo messaggio]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Vaše sporočilo]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsError]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Error]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Erreur]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Fehler]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Errore]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Napaka]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsRecieptHead]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[the following informations was sent to us]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Les informations suivantes nous ont été transmises]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Folgende Informationen wurden uns zugestellt]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ci sono state inviate le seguenti informazioni]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Prejeli smo naslednje informacije]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsMsgStar]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[red marked fields are required]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Les champs identifiés en rouge sont obligatoires]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[rot gekennzeichnete Felder sind Pflichtfelder.]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[I campi contrassegnati in rosso sono obbligatori]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Rdeče označena polja so obvezna.]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsWillRecvCopy]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[You will recieve a copy of this message shortly]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Vous recevrez dans quelques minutes un récépissé de votre message.]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Sie werden in wenigen Minuten eine Quittung Ihrer Nachricht erhalten.]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[A breve riceverai una copia del tuo messaggio]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Čez nekaj minut boste prejeli kopijo vašega sporočila.]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsERRinInput]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[the following inputs are wrong]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Les données suivantes ne sont pas correctes]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Folgende Eingaben sind fehlerhaft]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[I dati inseriti non sono corretti]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Naslednji vnosi so nepravilni]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+
+
+<Row>
+<Cell><Data ss:Type="String"><![CDATA[ZMSFormsReceipt]]></Data></Cell>
+
+
+<Cell><Data ss:Type="String"><![CDATA[Reciept]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Confirmation de réception]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Empfangsbeleg]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Ricevuta]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[Potrdilo o prejetju]]></Data></Cell>
+
+
+
+<Cell><Data ss:Type="String"><![CDATA[]]></Data></Cell>
+
+
+</Row>
+
+
+</Table>
+</Worksheet>
+</Workbook>

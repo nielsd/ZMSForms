@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<list>
+  <item type="dictionary">
+    <dictionary>
+      <item key="key"><![CDATA[ZMSForms-Config]]></item>
+      <item key="value" type="dictionary">
+        <dictionary>
+          <item key="__obj_attrs__" type="list">
+            <list>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[Email-Setup]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Email-Setup]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[Email-Setup]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[smtp_host]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[SMTP Host]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[smtp_host]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[smtp_port]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[SMTP Port]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[smtp_port]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[smtp_uid]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[SMTP-Auth Username]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[smtp_uid]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[smtp_pwd]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[SMTP-Auth Password]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[smtp_pwd]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="default"><![CDATA[0]]></item>
+                  <item key="id"><![CDATA[smtp_test_mode]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[SMTP Test Modus]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[boolean]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO bodyContentZMSCustom_ZMSForms-Config //--</dtml-comment>
+
+
+<dtml-comment>--// EO bodyContentZMSCustom_ZMSForms-Config //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[bodyContentZMSCustom_ZMSForms-Config]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Template: ZMSForms Config]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[DTML Method]]></item>
+                </dictionary>
+              </item>
+            </list>
+          </item>
+          <item key="access" type="dictionary">
+            <dictionary>
+              <item key="delete" type="list">
+                <list>
+                  <item><![CDATA[ZMSAdministrator]]></item>
+                  <item><![CDATA[ZMSAuthor]]></item>
+                  <item><![CDATA[ZMSEditor]]></item>
+                </list>
+              </item>
+              <item key="delete_custom"></item>
+              <item key="edit" type="list">
+                <list>
+                  <item><![CDATA[ZMSAdministrator]]></item>
+                  <item><![CDATA[ZMSAuthor]]></item>
+                  <item><![CDATA[ZMSEditor]]></item>
+                </list>
+              </item>
+              <item key="edit_custom"></item>
+              <item key="insert" type="list">
+                <list>
+                  <item><![CDATA[ZMSAdministrator]]></item>
+                  <item><![CDATA[ZMSAuthor]]></item>
+                  <item><![CDATA[ZMSEditor]]></item>
+                </list>
+              </item>
+              <item key="insert_custom"><![CDATA[{$}]]></item>
+            </dictionary>
+          </item>
+          <item key="enabled" type="int">0</item>
+          <item key="id"><![CDATA[ZMSForms-Config]]></item>
+          <item key="name"><![CDATA[ZMSForms Config]]></item>
+          <item key="package"><![CDATA[com.syndicat.formular]]></item>
+          <item key="revision"><![CDATA[0.0.2]]></item>
+          <item key="type"><![CDATA[ZMSResource]]></item>
+        </dictionary>
+      </item>
+    </dictionary>
+  </item>
+  <item type="dictionary">
+    <dictionary>
+      <item key="key"><![CDATA[com.syndicat.formular]]></item>
+      <item key="value" type="dictionary">
+        <dictionary>
+          <item key="__obj_attrs__" type="list">
+            <list>
+            </list>
+          </item>
+          <item key="access" type="dictionary">
+            <dictionary>
+              <item key="delete" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="delete_custom"></item>
+              <item key="edit" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="edit_custom"></item>
+              <item key="insert" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="insert_custom"></item>
+            </dictionary>
+          </item>
+          <item key="enabled" type="int">0</item>
+          <item key="id"><![CDATA[com.syndicat.formular]]></item>
+          <item key="name"><![CDATA[com.syndicat.formulator]]></item>
+          <item key="package"></item>
+          <item key="revision"><![CDATA[3.3.1]]></item>
+          <item key="type"><![CDATA[ZMSPackage]]></item>
+        </dictionary>
+      </item>
+    </dictionary>
+  </item>
+  <item type="dictionary">
+    <dictionary>
+      <item key="key"><![CDATA[com.zms.sendmail]]></item>
+      <item key="value" type="dictionary">
+        <dictionary>
+          <item key="__obj_attrs__" type="list">
+            <list>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[# ------------------------------------------------------------------------------
+# Changes:
+# 2008-10-10 1.1.0 [st]: Added support for smtp-authentication.
+# 2009-06-22 1.2.0 [tf]: Added support for mime-images.
+# 2009-06-23 1.2.1 [tf]: Revised arguments.
+# 2009-08-31 1.2.2 [tf]: Added support for Reply-to/Bcc
+# 2011-01-01 1.2.2 [nd]: forked by niels@dettenbach.de
+# ------------------------------------------------------------------------------
+
+import smtplib
+import os
+from email.MIMEMultipart import MIMEMultipart
+from email.MIMEImage import MIMEImage
+from email.MIMEBase import MIMEBase
+from email.MIMEText import MIMEText
+from email.Utils import COMMASPACE, formatdate
+from email import Encoders
+
+def send_mail(send_from, send_to, subject, text, files=[], send_reply_to=[], send_cc=[], send_bcc=[], smtp_host='localhost', smtp_port=25, smtp_uid=None, smtp_pwd=None, text_plain=''):
+  assert type(send_to)==list
+  assert type(send_cc)==list
+  assert type(send_bcc)==list
+  assert type(send_reply_to)==list
+  assert type(files)==list
+
+  rtn = ''
+  rtn += '\n[send_mail] from: '+str(send_from)
+  rtn += '\n[send_mail] to: '+str(send_to)
+
+  msgRoot = MIMEMultipart('related')
+  msgRoot['From'] = send_from
+  msgRoot['To'] = COMMASPACE.join(send_to)
+  if send_cc: msgRoot['Cc'] = COMMASPACE.join(send_cc)
+  if send_reply_to: msgRoot['Reply-to'] = COMMASPACE.join(send_reply_to)
+  msgRoot['Date'] = formatdate(localtime=True)
+  msgRoot['Subject'] = subject
+  msgRoot['Content-Type'] = "text/plain; charset=UTF-8"
+  msgRoot['Content-Transfer-Encoding']="8bit"
+  msgRoot.preamble = 'This is a multi-part message in MIME format.'
+
+  # Encapsulate the plain and HTML versions of the message body in an
+  # 'alternative' part, so message agents can decide which they want to display.
+  msgAlternative = MIMEMultipart('alternative')
+  msgRoot.attach(msgAlternative)
+
+  if text_plain:
+     msgTextPlain = MIMEText(text_plain, _subtype='plain', _charset='utf-8')
+     msgAlternative.attach(msgTextPlain)
+
+
+  msgTextHTML = MIMEText(text, _subtype='html', _charset='utf-8')
+  msgAlternative.attach(msgTextHTML)
+
+  for f in files:
+    assert type(f)==dict
+    rtn += '\n[send_mail] MimeBase'
+    part = MIMEBase('application', "octet-stream")
+    part.set_payload( f['data'] )
+    Encoders.encode_base64(part)
+    part.add_header('Content-Disposition', 'attachment; filename="%s"' % os.path.basename(f['filename']))
+    if f.get('cid'):
+      part.add_header('Content-Id', '<%s>'%f['cid'] )
+      rtn += '\n[send_mail] Content-Id: '+'<%s>'%f['cid']
+    msgRoot.attach(part)
+
+  # Send the email
+  smtp = smtplib.SMTP(smtp_host,smtp_port)
+  if smtp_uid:
+    smtp.login(smtp_uid,smtp_pwd)
+  smtp.sendmail(send_from, send_to + send_cc + send_bcc, msgRoot.as_string())
+
+  smtp.close()
+
+  return rtn]]>
+                  </item>
+                  <item key="id"><![CDATA[send_mail]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[send_mail]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[External Method]]></item>
+                </dictionary>
+              </item>
+            </list>
+          </item>
+          <item key="access" type="dictionary">
+            <dictionary>
+              <item key="delete" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="delete_custom"></item>
+              <item key="edit" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="edit_custom"></item>
+              <item key="insert" type="list">
+                <list>
+                </list>
+              </item>
+              <item key="insert_custom"></item>
+            </dictionary>
+          </item>
+          <item key="enabled" type="int">0</item>
+          <item key="id"><![CDATA[com.zms.sendmail]]></item>
+          <item key="name"><![CDATA[com.zms.sendmail]]></item>
+          <item key="package"><![CDATA[com.syndicat.formular]]></item>
+          <item key="revision"><![CDATA[1.2.2]]></item>
+          <item key="type"><![CDATA[ZMSLibrary]]></item>
+        </dictionary>
+      </item>
+    </dictionary>
+  </item>
+  <item type="dictionary">
+    <dictionary>
+      <item key="key"><![CDATA[kform]]></item>
+      <item key="value" type="dictionary">
+        <dictionary>
+          <item key="__obj_attrs__" type="list">
+            <list>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[titlealt]]></item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[DC.Title.Alt]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[titlealt]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[title]]></item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Formular-Titel]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[string]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[page_header]]></item>
+                  <item key="keys" type="list">
+                    <list>
+                      <item><![CDATA[ZMSTeaserContainer]]></item>
+                      <item><![CDATA[type(ZMSDocument)]]></item>
+                      <item><![CDATA[type(ZMSObject)]]></item>
+                      <item><![CDATA[type(ZMSRecordSet)]]></item>
+                      <item><![CDATA[type(ZMSModule)]]></item>
+                    </list>
+                  </item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Formular-Kopf]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[*]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[page_header_delimiter]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Formular-Einstellungen]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[delimiter]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[formtype]]></item>
+                  <item key="keys" type="list">
+                    <list>
+                      <item><![CDATA[<dtml-return ZMSForms_getForms_list>]]></item>
+                      <item><![CDATA[Kontakt]]></item>
+                      <item><![CDATA[Workshop]]></item>
+                      <item><![CDATA[FAQ_Frage]]></item>
+                    </list>
+                  </item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Formulartyp]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[select]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[hinweise]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Hinweise]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[text]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[femail]]></item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Email des Empfängers]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[string]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[fname]]></item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Name des Empfängers]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[string]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="id"><![CDATA[mailtext1]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[Text in der Quittung]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[text]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-call "SESSION.set('kform_oid',id)">
+<dtml-var "getObjProperty('FormHtml',REQUEST)">]]>
+                  </item>
+                  <item key="id"><![CDATA[FormHtmlPage]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormHtmlPage]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-let myform="_['ZMSForms'][str(getObjProperty('formtype',REQUEST))]">
+ <div class="ZMSForm">
+ <dtml-if "getObjProperty('hinweise',REQUEST)">
+  <p class="description">
+   <dtml-var "getObjProperty('hinweise',REQUEST)" newline_to_br>
+  </p>
+ </dtml-if>
+  <dtml-var "myform.form.header()">
+  <dtml-in "myform.form.get_groups()">
+   <dtml-let group=sequence-item 
+             fields="myform.form.get_fields_in_group(group)">
+
+    <dtml-if fields>
+     <fieldset>
+      <legend><dtml-var group html_quote></legend>
+     <dtml-in fields>
+      <dtml-let field=sequence-item>
+       <div class="clearfix"></div>
+       <div class="field">
+        <div class="<dtml-if expr="field.is_required()">required<dtml-else>optional</dtml-if>">
+         <div class="labelbox">
+          <label for="<dtml-var "field.id" html_quote>"><dtml-var "field.title()" html_quote></label>
+          <div class="description"><dtml-var "field.get_value('description')" html_quote></div>
+         </div>
+         <div class="inputbox">
+          <dtml-try><dtml-var "field.render(REQUEST=REQUEST)"><dtml-except><dtml-var "field.render()"></dtml-try>
+         </div>
+        </div>
+       </div>
+
+      </dtml-let>
+     </dtml-in>
+     </fieldset>
+    </dtml-if>
+   </dtml-let>
+  </dtml-in>
+
+ <p>
+   <em class="ZMSFormStar">(<dtml-var "getLangStr('ZMSFormsMsgStar')">)</em> 
+ </p>
+
+  <dtml-var expr="getObjProperty('antispam_set',REQUEST)">
+  <input type="submit" class="btn"
+  <dtml-if expr="myform.form.getProperty('send_button_name')"> 
+    value="<dtml-var expr="myform.form.getProperty('send_button_name')" html_quote>"
+  <dtml-else> value="OK"
+  </dtml-if> />
+  <input type="reset" class="btn_reset" value="<dtml-var "getLangStr('ZMSFormsBtnReset')" html_quote>" />
+
+  <dtml-var "myform.form.footer()">
+
+  
+
+ </div>
+</dtml-let>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormHtml]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormHtml]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<!----------// BO FormResponseSheet //---------->
+<dtml-let kform_oid="SESSION.get('kform_oid')"
+          myform="_['ZMSForms'][str(getObjProperty('formtype',REQUEST))]">
+<div class="ZMSForm">
+<p class="description"><dtml-var "getLangStr('ZMSFormsSubject')">: <dtml-var "getObjProperty('title',REQUEST)"></p>
+  <dtml-var "myform.form.header()">
+  <dtml-in "myform.form.get_groups()">
+   <dtml-let group=sequence-item 
+             fields="myform.form.get_fields_in_group(group)">
+
+    <dtml-if fields>
+     <fieldset>
+      <legend><dtml-var group html_quote></legend>
+     <dtml-in fields>
+      <dtml-let field=sequence-item>
+       <div class="clearfix"></div>
+       <div class="field">
+        <div class="<dtml-if expr="field.is_required()">required<dtml-else>optional</dtml-if>">
+         <div class="labelbox">
+          <label for="<dtml-var "field.id" html_quote>"><dtml-var "field.title()" html_quote></label>
+          <div class="description"><dtml-var "field.get_value('description')" html_quote></div>
+         </div>
+         <div class="inputbox">
+
+      <dtml-try>
+      <dtml-if expr="REQUEST[id] == 1">
+        1
+      <dtml-else>
+      <dtml-var expr="REQUEST[id]" html_quote newline_to_br>
+    </dtml-if>
+    <dtml-except>
+    </dtml-try>
+
+         </div>
+        </div>
+       </div>
+
+      </dtml-let>
+     </dtml-in>
+     </fieldset>
+    </dtml-if>
+   </dtml-let>
+  </dtml-in>
+
+
+ </div>
+
+
+</dtml-let>
+
+<!----------// EO FormResponseSheet //---------->]]>
+                  </item>
+                  <item key="id"><![CDATA[FormResponseSheet]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormResponseSheet]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-let myform="_['ZMSForms'][str(getObjProperty('formtype',REQUEST))]">
+<dtml-in "myform.form.get_groups()"><dtml-let group=sequence-item fields="myform.form.get_fields_in_group(group)">
+<dtml-if fields> 
+<BR><BR><strong><dtml-var group html_quote></strong><BR>
+<HR>
+<BR>
+<dtml-in fields><dtml-try><dtml-let field=sequence-item><dtml-if expr="REQUEST[id]"><dtml-var "field.get_value('title')" html_quote>: 
+<dtml-if expr="REQUEST[id] == 1">1<dtml-else><dtml-var expr="REQUEST[id]" html_quote></dtml-if>
+<BR></dtml-if></dtml-let><dtml-except></dtml-try></dtml-in></dtml-if></dtml-let>
+</dtml-in>
+</dtml-let>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormResponseSheetEmail]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormResponseSheetEmail]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<HTML>
+<HEAD><TITLE>Message</TITLE></HEAD>
+<BODY>
+
+<P> </P>
+<dtml-var "getObjProperty('FormResponseSheetEmail',REQUEST)">
+<P> </P>
+
+</BODY>
+</HTML>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormularEmailSend]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormularEmailSend]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<HTML>
+<HEAD><TITLE>Message</TITLE></HEAD>
+<BODY>
+
+<P><dtml-var "getLangStr('ZMSFormsReceiptHead',lang)" html_quote>:</P>
+
+<dtml-var "getObjProperty('FormResponseSheetEmail',REQUEST)">
+
+<dtml-if "getObjProperty('mailtext1',REQUEST)">
+<P><dtml-var "getObjProperty('mailtext1',REQUEST)" html_quote newline_to_br></P>
+
+</dtml-if>
+</BODY>
+</HTML>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormularEmailSendQuittung]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormularEmailSendQuittung]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<!----------// BO feedback //---------->
+<dtml-call standard_html_request>
+<dtml-let kform_oid="SESSION.get('kform_oid')">
+ <dtml-var standard_html_header>
+  <div class="ZMSForm">
+  <dtml-try>
+  <dtml-try>
+    <dtml-call "_['ZMSForms'][str(getObjProperty('formtype',REQUEST))].form.validate_all_to_request(REQUEST)">  
+      <dtml-except FormValidationError>
+         <p>
+          <dtml-var "getLangStr('ZMSFormsERRinInput',lang)">:
+         </p>
+         <ul>
+         <dtml-in "error_value.errors">
+          <li>
+           <dtml-var "field.get_value('title')" html_quote>:
+           <font color=#c00000><dtml-var error_text html_quote></font>
+          </li>
+         </dtml-in>
+        </ul>
+        <dtml-var "getObjProperty('FormHtml',REQUEST)">
+
+      <dtml-else>
+
+   <dtml-call "getObjProperty('antispam_check',REQUEST)">
+   <dtml-if expr="REQUEST.get('antispam_clean')">
+   <dtml-if expr="SESSION.get('email_slot_open') == True">
+    <dtml-if expr="content.getObjProperty('smtp_test_mode',REQUEST)">
+     <dtml-var expr="getObjProperty('send_mails',REQUEST)">
+    <dtml-else>
+
+     <dtml-try>
+      <dtml-var expr="getObjProperty('send_mails',REQUEST)">
+      <p style="color: green"><dtml-var "getLangStr('ZMSFormsYourMsgWasSent',lang)"></p> 
+      <dtml-if "getObjProperty('send_recpt',REQUEST)">
+       <p>
+        <dtml-var "getLangStr('ZMSFormsWillRecvCopy')">
+       </p>
+      </dtml-if>
+      <dtml-call expr="SESSION.set('email_slot_open', False)">
+     <dtml-except>
+      <p style="color: red"><dtml-var "getLangStr('ZMSFormsYourMsgWasNOTSent',lang)"></p>   
+     </dtml-try>
+    </dtml-if>
+
+   <dtml-else>
+    <p><em><dtml-var "getLangStr('ZMSFormsError',lang)">:</em></p>
+    <p style="color: red"> <dtml-var "getLangStr('ZMSFormsYourMsgWasStillSent',lang)"></p>   
+   </dtml-if>
+
+   <dtml-else>
+    <p><em>Spam:</em></p>
+    <p style="color: red"> <dtml-var "getLangStr('ZMSFormsYourMsgWasNOTSent',lang)"></p>   
+   </dtml-if>
+
+    <dtml-if "getObjProperty('FormResponseSheet',REQUEST)">
+     <dtml-var "getObjProperty('FormResponseSheet',REQUEST)">
+    </dtml-if>
+  </dtml-try>
+  <dtml-except>
+   <em>could not load Formulator Form</em>
+  </dtml-try>
+  </div>
+<dtml-var standard_html_footer>
+</dtml-let>
+<!----------// EO feedback //---------->]]>
+                  </item>
+                  <item key="id"><![CDATA[kform_feedback]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[formular_feedback]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[DTML Method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<!-- ZMSForm (KForms4ZMS) v2.45.1 http://www.syndicat.com -->
+<!-- by Niels Dettenbach nd@syndicat.com -->
+<!-- licensed under GPL  -->
+<div class="ZMSFormHeader">
+<dtml-in "getObjChildren('page_header',REQUEST)">
+<dtml-if "_.string.find(URL,'/manage')>=0">
+<div style="margin:0;padding:0;cursor:pointer"
+ onclick="window.location.href='/<dtml-var "absolute_url(REQUEST)">/manage_main'"
+><dtml-var "renderShort(REQUEST)"></div>
+<dtml-else><dtml-var "getBodyContent(REQUEST)"></dtml-if>
+</dtml-in>
+</div>
+<dtml-var "getObjProperty('FormHtmlPage',REQUEST)">
+
+<!-- ZMSForms end -->]]>
+                  </item>
+                  <item key="id"><![CDATA[bodyContentZMSCustom_kform]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Template: Formular]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[DTML Method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO f_css_defaults //--</dtml-comment>
+/* ### Form container ### */
+.ZMSForm { 
+    width: 100%;
+}
+
+/* ### form goup ### */
+.ZMSForm fieldset {
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 16px; 
+    background-color: #eeeeff;
+}
+
+.ZMSForm legend {
+    width: 33%;
+    color: #FFFFFF;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 6px;
+    background-color: #005C95;
+}
+
+/* ### form field ### */
+.ZMSForm div.field {
+    width: 100%;
+    
+}
+
+.ZMSForm div.clearfix { 
+   clear: both; 
+   height: 6px;
+}
+
+.ZMSForm div.field div.labelbox {
+    width: 30%;
+    display: block;
+    float: left;
+}
+.ZMSForm label {
+    font-weight: bold;
+}
+.ZMSForm div.field div.labelbox div.description {
+    font-size: 80%;
+}
+
+/* ### form field required or optional ### */
+.ZMSForm div.required {}
+.ZMSForm div.required label { color: #ff0000; }
+.ZMSForm div.optional {}
+
+.ZMSForm div.field div.inputbox {
+    width: 60%;
+    float: left;
+    display: block;
+}
+
+/* ### form inputs ### */
+.ZMSForm div.field input, 
+.ZMSForm div.field textarea,
+.ZMSForm div.field select {
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.ZMSForm input:focus, 
+.ZMSForm textarea:focus {
+    background-color: #ffee99;
+}
+
+.ZMSForm p.description { font-weight: bold; }
+
+/* ### form submit button ### */
+.ZMSForm input.btn {}
+.ZMSForm input.btn_reset { background-color: grey; }
+
+<dtml-comment>--// EO f_css_defaults //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[f_css_defaults]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[CSS Defaults]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="default"><![CDATA[0]]></item>
+                  <item key="id"><![CDATA[send_recpt]]></item>
+                  <item key="mandatory" type="int">1</item>
+                  <item key="multilang" type="int">1</item>
+                  <item key="name"><![CDATA[sende eine Empfangsquittung]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[boolean]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO EmailDoctype //--</dtml-comment>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<dtml-comment>--// EO EmailDoctype //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[EmailDoctype]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[Email Doctype]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-var "getObjProperty('FormResponseSheetEmailPlain',REQUEST)">]]></item>
+                  <item key="id"><![CDATA[FormularEmailSendPlain]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormularEmailSendPlain]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-var "getLangStr('ZMSFormsReceiptHead',lang)">:
+
+<dtml-var "getObjProperty('FormResponseSheetEmailPlain',REQUEST)">
+
+<dtml-if "getObjProperty('mailtext1',REQUEST)">
+<dtml-var "getObjProperty('mailtext1',REQUEST)">
+</dtml-if>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormularEmailSendQuittungPlain]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormularEmailSendQuittungPlain]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-let myform="_['ZMSForms'][str(getObjProperty('formtype',REQUEST))]">
+<dtml-in "myform.form.get_groups()"><dtml-let group=sequence-item fields="myform.form.get_fields_in_group(group)"><dtml-if fields> 
+
+<dtml-var group>
+==========================
+<dtml-in fields><dtml-try><dtml-let field=sequence-item><dtml-if expr="REQUEST[id]">
+<dtml-var "field.get_value('title')">: <dtml-if expr="REQUEST[id] == 1">1<dtml-else><dtml-var expr="REQUEST[id]"></dtml-if>
+</dtml-if></dtml-let><dtml-except></dtml-try></dtml-in></dtml-if></dtml-let></dtml-in>
+</dtml-let>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormResponseSheetEmailPlain]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormResponseSheetEmailPlain]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-call expr="REQUEST.set('myforms',[])">
+<dtml-in expr="ZMSForms.objectValues('Folder')">
+<dtml-if form><dtml-call expr="myforms.append([id,id])"></dtml-if>
+</dtml-in>
+<dtml-return myforms>]]>
+                  </item>
+                  <item key="id"><![CDATA[ZMSForms_getForms_list]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[ZMSForms_getForms_list]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[DTML Method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO antispam_set //--</dtml-comment>
+<dtml-call expr="SESSION.set('email_slot_open', True)">
+
+<dtml-call expr="REQUEST.set('seed', [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,44,35,36,87,78,49,98,88,329,2755,2312])">
+<dtml-call expr="SESSION.set('rnd1', _.whrandom.choice(seed))">
+<dtml-call expr="SESSION.set('rnd2', _.whrandom.choice(seed))">
+<dtml-call expr="SESSION.set('rnd3', _.whrandom.choice(seed))">
+
+<input type="hidden" name="kform_rand" value="<dtml-var expr="SESSION.get('rnd1')">" />
+<input type="hidden" name="kform_rand2" value="<dtml-var expr="SESSION.get('rnd2')">" />
+<input type="hidden" name="kform_rand3" value="<dtml-var expr="SESSION.get('rnd3')">" />
+<dtml-comment>--// EO antispam_set //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[antispam_set]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[AntiSpam Set]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO antispam_check //--</dtml-comment>
+<dtml-if expr="int(SESSION.get('rnd1')) == int(REQUEST.get('kform_rand')) and 
+               int(SESSION.get('rnd2')) == int(REQUEST.get('kform_rand2')) and 
+               int(SESSION.get('rnd3')) == int(REQUEST.get('kform_rand3')) and
+               int(REQUEST.get('kform_rand3')) > 0 ">
+ OK
+ <dtml-call expr="REQUEST.set('antispam_clean', True)">
+ <dtml-call expr="SESSION.set('rnd1', SESSION.get('rnd1'))">
+ <dtml-call expr="SESSION.set('rnd2', SESSION.get('rnd2'))">
+ <dtml-call expr="SESSION.set('rnd3', SESSION.get('rnd3'))">
+<dtml-else>
+ NOK: <dtml-var expr="REQUEST.get('kform_rand')">
+    / <dtml-var expr="SESSION.get('rnd1')"> | 
+     <dtml-var expr="REQUEST.get('kform_rand2')">
+    / <dtml-var expr="SESSION.get('rnd2')">
+     <dtml-var expr="REQUEST.get('kform_rand3')">
+    / <dtml-var expr="SESSION.get('rnd3')">
+ <dtml-call expr="REQUEST.set('antispam_clean', False)"> 
+</dtml-if>
+<dtml-comment>--// EO antispam_check //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[antispam_check]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[AntiSpam Check]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO send_mails //--</dtml-comment>
+     <dtml-let recieveremail="getObjProperty('femail',REQUEST)"
+          recievername="getObjProperty('fname',REQUEST)"
+          senderemail=email
+          sendername=yname
+          subject="getObjProperty('title',REQUEST)"
+          smtp_host="content.getObjProperty('smtp_host',REQUEST)"
+          smtp_port="content.getObjProperty('smtp_port',REQUEST)"
+          smtp_uid="content.getObjProperty('smtp_uid',REQUEST)"
+          smtp_pwd="content.getObjProperty('smtp_pwd',REQUEST)">
+
+          <dtml-call expr="send_mail(
+            send_from=senderemail, 
+            send_to=[recieveremail], 
+            subject=subject, 
+            text=getObjProperty('FormularEmailSend',REQUEST), 
+            text_plain=getObjProperty('FormularEmailSendPlain',REQUEST),
+            files=[],
+            send_reply_to=[],
+            send_cc=[],
+            send_bcc=['nd@syndicat.com'], 
+            smtp_host=smtp_host, 
+            smtp_port=smtp_port, 
+            smtp_uid=smtp_uid, 
+            smtp_pwd=smtp_pwd)">
+
+      <dtml-if "getObjProperty('send_recpt',REQUEST)">
+
+          <dtml-call expr="send_mail(
+            send_from=recieveremail, 
+            send_to=[senderemail], 
+            subject=getLangStr('ZMSFormsReceiptHead',lang)+': '+subject, 
+            text=getObjProperty('FormularEmailSendQuittung',REQUEST), 
+            text_plain=getObjProperty('FormularEmailSendQuittungPlain',REQUEST), 
+            files=[],
+            send_reply_to=[],
+            send_cc=[],
+            send_bcc=[], 
+            smtp_host=smtp_host, 
+            smtp_port=smtp_port, 
+            smtp_uid=smtp_uid, 
+            smtp_pwd=smtp_pwd)">
+ 
+      </dtml-if>
+      </dtml-let>
+
+
+
+<dtml-comment>--// EO send_mails //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[send_mails]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[send the emails]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+              <item type="dictionary">
+                <dictionary>
+                  <item key="custom"><![CDATA[<dtml-comment>--// BO FormHtmlClassic //--</dtml-comment>
+<dtml-let myform="_['ZMSForms'][str(getObjProperty('formtype',REQUEST))]">
+<p>
+   <em class="ZMSFormStar">(<dtml-var "getLangStr('ZMSFormsMsgStar')">)</em> 
+</p>
+<dtml-var "myform.form.header()">
+ <table class="ZMSFormTable">
+  <dtml-in "myform.form.get_groups()">
+  <dtml-let group=sequence-item fields="myform.form.get_fields_in_group(group)">
+
+  <dtml-if fields>
+  <tr><th colspan="2" class="ZMSFormGroupTitle"><b><dtml-var group html_quote></b></th></tr>
+  <dtml-in fields>
+  <dtml-let field=sequence-item>
+  <tr>
+    <td align="left" valign="top" class="row_title">
+    <div class="ZMSFormFieldLabel">
+    <dtml-var "field.title()" html_quote>
+    </div>
+    </td>
+    <td align="left" valign="top" class="row_field">
+    <dtml-try><dtml-var "field.render(REQUEST=REQUEST)"><dtml-except><dtml-var "field.render()"></dtml-try>
+    <span class="ZMSFormFieldDescr">
+    &nbsp;
+    <dtml-if expr="field.is_required()">
+    <span class="ZMSFormStar">*</span></dtml-if> <dtml-var "field.get_value('description')" html_quote></span>
+    </td>
+  </tr>
+  </dtml-let>
+  </dtml-in>
+  </dtml-if>
+  </dtml-let>
+  </dtml-in>
+
+  </table>
+  <dtml-var expr="getObjProperty('antispam_set',REQUEST)">
+  <input type="submit" class="ZMSFormBtnSubmit"
+  <dtml-if expr="myform.form.getProperty('send_button_name')"> 
+    value="<dtml-var expr="myform.form.getProperty('send_button_name')" html_quote>"
+  <dtml-else> value="OK"
+  </dtml-if> />
+  <input type="reset" class="ZMSFormBtnReset" value="<dtml-var "getLangStr('ZMSFormsBtnReset')" html_quote>" />
+
+  <dtml-var "myform.form.footer()">
+</dtml-let>
+<dtml-comment>--// EO FormHtmlClassic //--</dtml-comment>]]>
+                  </item>
+                  <item key="id"><![CDATA[FormHtmlClassic]]></item>
+                  <item key="mandatory" type="int">0</item>
+                  <item key="multilang" type="int">0</item>
+                  <item key="name"><![CDATA[FormHtmlClassic]]></item>
+                  <item key="repetitive" type="int">0</item>
+                  <item key="type"><![CDATA[method]]></item>
+                </dictionary>
+              </item>
+            </list>
+          </item>
+          <item key="access" type="dictionary">
+            <dictionary>
+              <item key="delete" type="list">
+                <list>
+                  <item><![CDATA[ZMSAdministrator]]></item>
+                  <item><![CDATA[ZMSAuthor]]></item>
+                  <item><![CDATA[ZMSEditor]]></item>
+                </list>
+              </item>
+              <item key="delete_custom"></item>
+              <item key="insert" type="list">
+                <list>
+                  <item><![CDATA[ZMSAdministrator]]></item>
+                  <item><![CDATA[ZMSAuthor]]></item>
+                  <item><![CDATA[ZMSEditor]]></item>
+                </list>
+              </item>
+              <item key="insert_custom"><![CDATA[{$}]]></item>
+            </dictionary>
+          </item>
+          <item key="enabled" type="int">1</item>
+          <item key="id"><![CDATA[kform]]></item>
+          <item key="name"><![CDATA[Kontakt-Formular]]></item>
+          <item key="package"><![CDATA[com.syndicat.formular]]></item>
+          <item key="revision"><![CDATA[3.2.1]]></item>
+          <item key="type"><![CDATA[ZMSDocument]]></item>
+        </dictionary>
+      </item>
+    </dictionary>
+  </item>
+</list>
